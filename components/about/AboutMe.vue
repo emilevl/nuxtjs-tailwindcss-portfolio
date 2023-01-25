@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-  <div class="block sm:flex sm:gap-10 mt-10 sm:mt-20">
+  <div class="block items-center sm:flex sm:gap-10 mt-10 sm:mt-20">
     <!-- About profile image -->
     <div class="w-full sm:w-1/4 mb-7 sm:mb-0">
       <img src="~/static/profile.JPG" class="rounded-lg w-96" alt="" />
