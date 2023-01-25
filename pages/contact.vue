@@ -8,19 +8,19 @@ export default {
       contacts: [
         {
           id: 1,
-          name: "Your Address, Your City, Your Country",
+          name: "2534 Orvin, Switzerland",
           icon: "map-pin",
         },
         {
           id: 2,
-          name: "email@domain.com",
+          name: "emile.vianney-liaud@heig-vd.ch",
           icon: "mail",
-        },
-        {
-          id: 3,
-          name: "555 8888 888",
-          icon: "phone",
-        },
+        }
+        // {
+        //   id: 3,
+        //   name: "555 8888 888",
+        //   icon: "phone",
+        // },
       ],
     };
   },
