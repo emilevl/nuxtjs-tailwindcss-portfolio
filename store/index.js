@@ -8,9 +8,9 @@ export const state = () => ({
       id: "260d1271-f1f2-4bc9-a5eb-05a89c8cccdb",
       title: "Titanic",
       category: "Website",
-      img: "images/titanic-frame.png",
+      img: "images/titanic-mockup.png",
       publishDate: "Mar, 2022",
-      tag: "JS / Frontend / Data visualisation",
+      tag: "JS / Frontend / Data visualisation / d3.js / gsap",
       clientTitle: "About the project",
       objectivesTitle: "Objective",
       objectivesDetails:
@@ -22,7 +22,12 @@ export const state = () => ({
         {
           id: uuidv4(),
           title: "Titanic frame",
-          img: "../images/titanic-frame.png",
+          img: "../images/old-titanic-frame.png",
+        },
+        {
+          id: uuidv4(),
+          title: "Titanic mockup",
+          img: "../images/titanic-mockup.png",
         },
         // {
         //   id: uuidv4(),
@@ -110,7 +115,7 @@ export const state = () => ({
       category: "Web Application",
       img: "images/packige.png",
       publishDate: "May, 2022",
-      tag: "UI / Frontend / Backends",
+      tag: "Laravel / VueJS / MySQL / UI",
       clientTitle: "About the project",
       objectivesTitle: "Objectives",
       objectivesDetails:
@@ -262,11 +267,11 @@ export const state = () => ({
   aboutMe: [
     {
       id: uuidv4(),
-      bio: "I am a Full-Stack developer from Orvin, Switzerland. After completing an apprenticeship in computer science from 2014 to 2018, I decided to pursue a degree as a Media Engineer from 2020 to 2023. This school provided me with the soft skills and hard skills that I will need for my future job. This is because after completing this degree, I will be starting my own startup with three associates, which will require a lot of work. ",
+      bio: "I am a Full-Stack developer from Orvin, Switzerland. After completing an apprenticeship in computer science from 2014 to 2018, I decided to pursue a degree as a Media Engineer from 2020 to 2023. This school provided me with the soft skills and hard skills that I will need for my future job. After this bachelor, we will be starting our own startup with three associates, which will require a lot of work and skills that we learned during the bachelor. ",
     },
     {
       id: uuidv4(),
-      bio: "I have always been fascinated by the workings behind the scenes, like in a theater: how a computer is built, how websites are developed, etc. And now, I am behind the scenes, which is a very satisfying experience for me. I am eager to take on new projects that are challenging and stimulating.",
+      bio: "I have always been fascinated by the workings behind the scenes, like in a theater: how computers are built, how websites are developed, etc. And now, I am behind the scenes, which is a very satisfying experience for me. I am eager to take on new projects that are challenging and stimulating.",
     },
   ],
   copyrightDate: new Date().getFullYear(),

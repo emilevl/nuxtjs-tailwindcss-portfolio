@@ -8,12 +8,12 @@ export default {
           {
             id: 1,
             title: "Titanic",
-            img: require("@/static/images/mobile-project-1.jpg"),
+            img: require("@/static/images/titanic-frame.png"),
           },
           {
             id: 2,
             title: "Packige",
-            img: require("@/static/images/web-project-1.jpg"),
+            img: require("@/static/images/packige.png"),
           },
         ],
       },
